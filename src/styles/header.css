@@ -1,0 +1,28 @@
+.promo {
+  padding-bottom: 200px;
+}
+
+.promo::before {
+  position: absolute;
+  top: 55px;
+  right: -270px;
+
+  width: 1085px;
+  height: 525px;
+
+  background-image: url("../images/main.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  content: "";
+}
+
+.title-header {
+  position: relative;
+
+  max-width: 200px;
+}
+
+.btn-header {
+  margin-right: auto;
+}
