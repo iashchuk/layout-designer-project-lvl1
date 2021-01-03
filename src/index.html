@@ -6,11 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Когнитивные искажения: iashchuk</title>
     <link rel="stylesheet" href="styles/style.css" />
-    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/blocks.css" />
   </head>
+
   <body>
     <header class="bg-image bg-light overflow-hidden">
-      <div class="section">
+      <div class="container">
         <div class="promo">
           <h1 class="title-header">
             <span class="text-main">Когнитивные искажения</span>
@@ -44,30 +45,83 @@
           <div class="grid-row">
             <div class="grid-column"></div>
             <div class="grid-column">
-              <a href="#nav" class="btn btn-link btn-header">Подробнее</a>
+              <a href="#navigation" class="btn btn-link btn-header"
+                >Подробнее</a
+              >
             </div>
           </div>
         </div>
       </div>
     </header>
     <main>
-      <section class="section section-center">
-        <h2 class="title-video">
-          Что же это такое,
-          <span class="text-main">когнитивные искажения?</span>
-        </h2>
-        <p class="text-video">
-          Что такое когнитивные искажения. Petrovna Channel
-        </p>
+      <section>
+        <div class="container container-center">
+          <h2 class="title-video">
+            Что же это такое,
+            <span class="text-main">когнитивные искажения?</span>
+          </h2>
+          <p class="text-video">
+            Что такое когнитивные искажения. Petrovna Channel
+          </p>
 
-        <iframe
-          class="video"
-          width="919"
-          height="569"
-          src="https://www.youtube.com/embed/jie9AizBqss"
-          allowfullscreen
-        >
-        </iframe>
+          <iframe
+            class="video"
+            width="919"
+            height="569"
+            src="https://www.youtube.com/embed/jie9AizBqss"
+            allowfullscreen
+          >
+          </iframe>
+        </div>
+      </section>
+      <section class="bg-dark" id="navigation">
+        <nav class="container container-nav">
+          <div class="card card-info">
+            <h3 class="text-white card-title">
+              <span class="text-main">5 когнитивных искажений</span>
+              о&nbsp;существовании которых стоит помнить
+            </h3>
+          </div>
+          <a class="card bg-light" href="#">
+            <span class="card-count text-main-dark">1</span>
+            <h3 class="card-title text-main">Эффект ИКЕА</h3>
+            <p>
+              Вы переоцениваете собственные решения, и, как следствие,
+              недооцениваете решения других.
+            </p>
+          </a>
+          <a class="card bg-light" href="#">
+            <span class="card-count text-main-dark">2</span>
+            <h3 class="card-title text-main">Преждевременная оптимизация</h3>
+            <p>
+              Вы оптимизируете что-то задолго до того, как в этом появляется
+              необходимость.
+            </p>
+          </a>
+          <a class="card bg-light" href="#">
+            <span class="card-count text-main-dark">3</span>
+            <h3 class="card-title text-main">Искажение новизны</h3>
+            <p>
+              Вы даёте более высокую оценку тем событиям, которые произошли
+              недавно, и недооцениваете более старые.
+            </p>
+          </a>
+          <a class="card bg-light" href="#">
+            <span class="card-count text-main-dark">4</span>
+            <h3 class="card-title text-main">Гиперболическое обесценивание</h3>
+            <p>
+              Вы гонитесь за немедленной маленькой выгодой и игнорируете более
+              крупную, недоступную сейчас, но доступную в будущем.
+            </p>
+          </a>
+          <a class="card bg-light" href="#">
+            <span class="card-count text-main-dark">5</span>
+            <h3 class="card-title text-main">Ошибка планирования</h3>
+            <p>
+              Неправильно рассчитывать время необходимое для завершения задачи.
+            </p>
+          </a>
+        </nav>
       </section>
     </main>
     <footer></footer>
