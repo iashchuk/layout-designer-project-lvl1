@@ -177,6 +177,7 @@ a {
   padding: 12px 24px;
 
   color: var(--color-white);
+  letter-spacing: 0.5px;
   text-transform: uppercase;
   text-decoration: none;
 }
@@ -240,7 +241,7 @@ a {
 }
 
 .promo {
-  padding-bottom: 200px;
+  padding-bottom: 196px;
 }
 
 .promo::before {
