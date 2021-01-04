@@ -124,6 +124,7 @@ a {
 
   margin: 0 auto;
   padding: 100px 0;
+  padding-bottom: 80px;
 }
 
 .container-center {
@@ -218,18 +219,14 @@ a {
   flex-direction: column;
 }
 
-.section.bg-brown {
-  color: var(--color-white);
-}
-
 .grid-row {
   display: flex;
   margin-bottom: 20px;
 }
 
-.grid-row:last-child {
+/* .grid-row:last-child {
   margin-bottom: 0;
-}
+} */
 
 .grid-row-column {
   flex-direction: column;
