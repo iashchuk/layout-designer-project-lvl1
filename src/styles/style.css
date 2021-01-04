@@ -24,6 +24,7 @@ html,
 body {
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
 
   color: var(--color-dark);
   font-size: 16px;
@@ -35,14 +36,18 @@ h1,
 h2,
 h3 {
   margin: 0;
+  margin-bottom: 20px;
   padding: 0;
 
+  color: var(--color-main);
+  font-weight: 400;
   font-family: var(--font-title);
   line-height: 1.2em;
 }
 
 h1 {
   font-size: 72px;
+  line-height: 87px;
 }
 
 h2 {
@@ -53,7 +58,20 @@ h3 {
   font-size: 34px;
 }
 
+.h1,
+.h2,
+.h3 {
+  margin: 0;
+  padding: 0;
+}
+
 p {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 12px;
+}
+
+.p {
   margin: 0;
   padding: 0;
 }
@@ -61,6 +79,30 @@ p {
 a {
   color: var(--color-dark);
   text-decoration: none;
+}
+
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+.mb-12 {
+  margin-bottom: 12px;
+}
+
+.mb-15 {
+  margin-bottom: 15px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.mr-30 {
+  margin-right: 30px;
+}
+
+.mr-0 {
+  margin-right: 0;
 }
 
 .text-main {
@@ -114,8 +156,13 @@ a {
   padding-top: 200px;
 }
 
+.container-form {
+  padding: 39px 55px;
+}
+
 .container-footer {
-  padding: 55px;
+  padding: 0 55px;
+  padding-top: 76px;
 }
 
 .overflow-hidden {
@@ -177,6 +224,7 @@ a {
   padding: 12px 24px;
 
   color: var(--color-white);
+  letter-spacing: 0.5px;
   text-transform: uppercase;
   text-decoration: none;
 }
@@ -191,6 +239,10 @@ a {
   margin-bottom: 20px;
 }
 
+.grid-row:last-child {
+  margin-bottom: 0;
+}
+
 .grid-row-column {
   flex-direction: column;
 }
@@ -203,20 +255,15 @@ a {
   margin-bottom: 100px;
 }
 
-.grid-row p {
-  margin-bottom: 20px;
-}
-
-.grid-row-footer,
-.grid-row-footer p {
-  margin-bottom: 0;
-}
-
 .grid-column {
   display: flex;
   flex-direction: column;
-  width: 50%;
-  padding-right: 30px;
+  width: 540px;
+  margin-right: 30px;
+}
+
+.grid-column-center {
+  justify-content: center;
 }
 
 .grid-column-slide {
@@ -224,15 +271,15 @@ a {
 }
 
 .grid-column:last-child {
-  padding-right: 0;
+  margin-right: 0;
 }
 
 .grid-row-reverse .grid-column:last-child {
-  padding-right: 30px;
+  margin-right: 30px;
 }
 
 .grid-row-reverse .grid-column:first-child {
-  padding-right: 0;
+  margin-right: 0;
 }
 
 .underline {
@@ -240,7 +287,7 @@ a {
 }
 
 .promo {
-  padding-bottom: 200px;
+  padding-bottom: 194px;
 }
 
 .promo::before {
@@ -269,7 +316,7 @@ a {
 }
 
 .video {
-  margin-bottom: -200px;
+  margin-bottom: -195px;
 
   border: 0;
 
@@ -287,8 +334,12 @@ a {
 .card {
   width: 350px;
   margin-right: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   padding: 24px;
+}
+
+.card:nth-child(n + 4) {
+  margin-bottom: 0;
 }
 
 .card:nth-child(3n + 3) {
@@ -306,6 +357,13 @@ a {
 
 .card-title {
   margin-bottom: 16px;
+}
+
+.card-title-info {
+  margin-bottom: 0;
+
+  font-size: 52px;
+  line-height: 62px;
 }
 
 .card-count {
@@ -357,6 +415,7 @@ a {
 
 .footer {
   padding: 100px 0;
+  padding-bottom: 110px;
 }
 
 .footer-title {
@@ -373,9 +432,10 @@ a {
 
 .form-label {
   display: flex;
-  margin-bottom: 14px;
+  margin-bottom: 9px;
 
   font-size: 18px;
+  line-height: 28px;
 }
 
 .form-field {
