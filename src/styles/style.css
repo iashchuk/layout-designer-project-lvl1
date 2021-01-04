@@ -24,13 +24,12 @@ html,
 body {
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
 
   color: var(--color-dark);
   font-size: 16px;
   font-family: var(--font-default);
   line-height: 1.6em;
-
-  overflow-x: hidden;
 }
 
 h1,
@@ -64,6 +63,18 @@ p {
 a {
   color: var(--color-dark);
   text-decoration: none;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.mr-30 {
+  margin-right: 30px;
+}
+
+.mr-0 {
+  margin-right: 0;
 }
 
 .text-main {
@@ -195,6 +206,10 @@ a {
   margin-bottom: 20px;
 }
 
+.grid-row:last-child {
+  margin-bottom: 0;
+}
+
 .grid-row-column {
   flex-direction: column;
 }
@@ -205,17 +220,6 @@ a {
 
 .grid-row-image {
   margin-bottom: 100px;
-}
-
-.grid-row p {
-  margin-bottom: 20px;
-
-  line-height: 1.6em;
-}
-
-.grid-row-footer,
-.grid-row-footer p {
-  margin-bottom: 0;
 }
 
 .grid-column {
