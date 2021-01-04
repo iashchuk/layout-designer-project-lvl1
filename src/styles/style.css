@@ -63,15 +63,17 @@ h3 {
 .h3 {
   margin: 0;
   padding: 0;
+
+  color: var(--color-default);
 }
 
 p {
   margin: 0;
-  padding: 0;
   margin-bottom: 12px;
+  padding: 0;
 }
 
-.p {
+.text {
   margin: 0;
   padding: 0;
 }
@@ -83,10 +85,6 @@ a {
 
 .mb-10 {
   margin-bottom: 10px;
-}
-
-.mb-12 {
-  margin-bottom: 12px;
 }
 
 .mb-15 {
@@ -131,6 +129,10 @@ a {
 
 .text-dark-opacity {
   color: var(--color-dark-opacity);
+}
+
+.text-errors {
+  margin-bottom: 12px;
 }
 
 .container {
@@ -305,13 +307,13 @@ a {
   content: "";
 }
 
-.title-header {
+.header-title {
   position: relative;
 
   max-width: 600px;
 }
 
-.btn-header {
+.header-btn {
   margin-right: auto;
 }
 
@@ -323,11 +325,11 @@ a {
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
 
-.title-video {
+.video-title {
   max-width: 600px;
 }
 
-.text-video {
+.video-text {
   margin: 30px 0;
 }
 
@@ -336,6 +338,8 @@ a {
   margin-right: 30px;
   margin-bottom: 20px;
   padding: 24px;
+
+  transition: all 0.5s;
 }
 
 .card:nth-child(n + 4) {
@@ -344,6 +348,12 @@ a {
 
 .card:nth-child(3n + 3) {
   margin-right: 0;
+}
+
+.card:hover:not(.card-info) {
+  background-color: var(--color-main);
+
+  transition: all 0.5s;
 }
 
 .card-info {
@@ -371,8 +381,14 @@ a {
   padding-bottom: 40px;
 
   font-size: 64px;
+  line-height: 64px;
   font-family: var(--font-title);
-  line-height: 1;
+}
+
+.card:hover .card-count,
+.card:hover .card-title,
+.card:hover .text {
+  color: var(--color-white);
 }
 
 .slide-image {
