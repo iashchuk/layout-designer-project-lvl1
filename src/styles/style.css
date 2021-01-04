@@ -35,6 +35,10 @@ body {
 h1,
 h2,
 h3 {
+  margin: 0;
+  margin-bottom: 20px;
+  padding: 0;
+
   color: var(--color-main);
   font-weight: 400;
   font-family: var(--font-title);
