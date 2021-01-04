@@ -310,7 +310,7 @@ a {
   padding: 24px;
 }
 
-.card:nth-child(n + 3) {
+.card:nth-child(n + 4) {
   margin-bottom: 0;
 }
 
