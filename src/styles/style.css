@@ -75,6 +75,14 @@ a {
   color: var(--color-white);
 }
 
+.text-white-opacity {
+  color: var(--color-white-opacity);
+}
+
+.text-brown {
+  color: var(--color-brown);
+}
+
 .text-dark-opacity {
   color: var(--color-dark-opacity);
 }
@@ -131,6 +139,10 @@ a {
   background-color: var(--color-light);
 }
 
+.bg-white {
+  background-color: var(--color-white);
+}
+
 .bg-dark {
   background: var(--color-main-dark);
 }
@@ -169,6 +181,18 @@ a {
 .grid-row {
   display: flex;
   margin-bottom: 20px;
+}
+
+.grid-row-reverse {
+  flex-direction: row-reverse;
+}
+
+.grid-row-reverse .grid-column:last-child {
+  padding-right: 30px;
+}
+
+.grid-row-reverse .grid-column:first-child {
+  padding-right: 0;
 }
 
 .grid-row-image {
