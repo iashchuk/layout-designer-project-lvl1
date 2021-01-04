@@ -65,6 +65,14 @@ a {
   text-decoration: none;
 }
 
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+.mb-16 {
+  margin-bottom: 16px;
+}
+
 .mb-20 {
   margin-bottom: 20px;
 }
@@ -176,6 +184,7 @@ a {
 
 .bg-brown {
   background: var(--color-brown);
+  color: var(--color-white);
 }
 
 .btn {
@@ -235,7 +244,7 @@ a {
 }
 
 .grid-column-center {
-  flex-direction: center;
+  justify-content: center;
 }
 
 .grid-column-slide {
@@ -387,7 +396,6 @@ a {
 
 .footer {
   padding: 100px 0;
-  padding-bottom: 110px;
 }
 
 .footer-title {
