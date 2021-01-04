@@ -32,26 +32,27 @@ body {
   line-height: 1.6em;
 }
 
-.h1,
-.h2,
-.h3 {
+h1,
+h2,
+h3 {
   margin: 0;
   padding: 0;
 
+  color: var(--color-main);
   font-family: var(--font-title);
   line-height: 1.2em;
 }
 
-.h1 {
+h1 {
   font-size: 72px;
   line-height: 87px;
 }
 
-.h2 {
+h2 {
   font-size: 60px;
 }
 
-.h3 {
+h3 {
   font-size: 34px;
 }
 
