@@ -110,6 +110,10 @@ a {
   padding-top: 200px;
 }
 
+.container-footer {
+  padding: 55px;
+}
+
 .overflow-hidden {
   overflow: hidden;
 }
@@ -197,6 +201,11 @@ a {
 
 .grid-row-image {
   margin-bottom: 100px;
+}
+
+.grid-row-footer,
+.grid-row-footer .grid-column p {
+  margin-bottom: 0;
 }
 
 .grid-column {
