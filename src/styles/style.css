@@ -35,12 +35,17 @@ body {
 h1,
 h2,
 h3 {
-  margin: 0;
-  padding: 0;
-
   color: var(--color-main);
+  font-weight: 400;
   font-family: var(--font-title);
   line-height: 1.2em;
+}
+
+.h1,
+.h2,
+.h3 {
+  margin: 0;
+  padding: 0;
 }
 
 h1 {
