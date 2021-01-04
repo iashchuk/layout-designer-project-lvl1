@@ -75,6 +75,10 @@ a {
   color: var(--color-white);
 }
 
+.text-dark-opacity {
+  color: var(--color-dark-opacity);
+}
+
 .container {
   position: relative;
 
@@ -131,6 +135,10 @@ a {
   background: var(--color-main-dark);
 }
 
+.bg-brown {
+  background: var(--color-brown);
+}
+
 .btn {
   display: inline-block;
 
@@ -163,11 +171,19 @@ a {
   margin-bottom: 20px;
 }
 
+.grid-row-image {
+  margin-bottom: 100px;
+}
+
 .grid-column {
   display: flex;
   flex-direction: column;
   width: 50%;
   padding-right: 30px;
+}
+
+.grid-column-slide {
+  width: auto;
 }
 
 .grid-column:last-child {
