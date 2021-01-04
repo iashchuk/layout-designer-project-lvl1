@@ -190,10 +190,6 @@ a {
   background: var(--color-brown);
 }
 
-.bg-brown h2 {
-  color: var(--color-white);
-}
-
 .btn {
   display: inline-block;
 
@@ -220,6 +216,10 @@ a {
 .grid {
   display: flex;
   flex-direction: column;
+}
+
+.section.bg-brown {
+  color: var(--color-white);
 }
 
 .grid-row {
